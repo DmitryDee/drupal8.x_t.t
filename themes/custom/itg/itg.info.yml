@@ -7,3 +7,9 @@ core: 8.x
 libraries:
  - itg/bootstrap
  - itg/custom
+
+regions:
+  header: 'header'
+  content: 'content'
+  left_sidebar: 'left_sidebar'
+  footer: 'footer'
