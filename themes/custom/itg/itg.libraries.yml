@@ -1,16 +1,18 @@
-bootstrap:
-  header: false
-  css:
-    theme:
-      css/bootstrap.min.css: {}
-  js:
-    js/bootstrap.min.js: {}
-  dependencies:
-    - core/jquery
+# bootstrap:
+#   header: false
+#   css:
+#     theme:
+#       css/bootstrap.min.css: {}
+#   js:
+#     js/bootstrap.min.js: {}
+#   dependencies:
+#     - core/jquery
 
 custom:
   css:
     theme:
-      css/app.css: {}
+      css/main.css: {}
   js:
-    js/app.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery  
